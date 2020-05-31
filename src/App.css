@@ -1,38 +1,53 @@
 .App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+  text-align: end;
 }
 
 .App-header {
-  background-color: #282c34;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.storeCard {
+  width: 320px;
+  height: 415px;
+  margin-bottom: 12px;
+  text-align: center;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.storeLogo {
+  height: auto;
+  max-height: 250px;
+  width: auto;
+  max-width: 250px;
+  text-align: center;
+}
+
+.storeList {
+  margin-bottom: 6px;
+}
+
+.card {
+  display: block !important;
+}
+
+.button {
+  margin-top: 10px;
+  margin-right: 10px;
+}
+
+.sidebar {
+  text-align: start;
+  padding-right: 20px;
+  padding-left: 10px;
+}
+
+.createAccount {
+  text-align: center;
+  margin-top: 90px;
+}
+
+.signin {
+  margin-top: 90px;
 }
